@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Gary Cruise</title>
-        <meta name="description" content="Personal website of Gary Cruise">
-        <link rel="stylesheet" href="/index.css"/>
-    </head>
-    <body>
-      <section class="bg">
-        <header>
-            <h2 class="logo">Personal Website</h2>
-            <div class="toggle"></div>
-        </header>
-        <div class="text">
-            <h3>Hey! I'm</h3>
-            <a>Gary Cruise</a>
-            <p> hello guys im a beginner software engineer</p>
-        </div>
-        <div class="buttons">
-          <button onclick="console.log"()>Say hello</button>
-        </div>
-      </body>
-<footer>
-  <span>Gary Cruise.</span>
-</footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gary Cruise</title>
+    <meta name="description" content="Personal website of Gary Cruise" />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+
+  <body>
+    <div class="bg"></div>
+
+    <nav class="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact/index.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="header hero">
+      <div class="text">
+        <h3>Hey! I'm</h3>
+        <a>Gary Cruise</a>
+      </div>
+    </header>
+
+    <main class="main content">
+      <img class="photo" src="./assets/hah.PNG" alt="M Haidar Hanif" />
+      <p>I'm a beginner in Software Engineer & Full Stack Web Developer</p>
+      <p>This website is a project for week 1 FSSE RevoU</p>
+      <p>I'm hoping that i can get a career change after this bootcamp</p>
+
+      <button onclick="alert('Hello!')">Say Hello!</button>
+    </main>
+
+    <footer class="footer">
+      <p class="copyright">Copyright &copy; Gary Cruise</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
 </html>
